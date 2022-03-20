@@ -1,5 +1,11 @@
 {
-  "cSpell.words": ["semibold", "tailwindcss"],
+  "cSpell.words": [
+    "imgix",
+    "semibold",
+    "tailwindcss",
+    "tailwindui",
+    "vercel"
+  ],
   "typescript.preferences.importModuleSpecifier": "relative",
   "git.enableSmartCommit": true,
   "git.autofetch": true,

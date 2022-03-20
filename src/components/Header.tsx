@@ -2,7 +2,10 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <header className='border-grey border-b p-4 text-center text-xl drop-shadow'>
+    <header
+      id='header'
+      className='border-grey w-full border p-4 pt-2 text-center text-2xl'
+    >
       Welcome
     </header>
   )
