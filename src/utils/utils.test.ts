@@ -1,7 +1,7 @@
 import { getLargest, multiply, sumAll } from './utils'
 
 describe('utils', () => {
-  describe('add()', () => {
+  describe('sumAll()', () => {
     test('should add two numbers', () => {
       expect(sumAll(10)).toEqual(55)
     })
