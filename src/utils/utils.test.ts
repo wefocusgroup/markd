@@ -1,4 +1,4 @@
-import { getLargest, sumAll } from './utils'
+import { getLargest, multiply, sumAll } from './utils'
 
 describe('utils', () => {
   describe('add()', () => {
@@ -11,6 +11,12 @@ describe('utils', () => {
     test('should getLargest', () => {
       expect(getLargest([])).toEqual(0)
       expect(getLargest([1, 3, 5, -3])).toEqual(5)
+    })
+  })
+
+  describe('multiply', () => {
+    test('should multiply', () => {
+      expect(multiply(2, 2)).toEqual(4)
     })
   })
 })
