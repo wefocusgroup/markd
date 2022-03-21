@@ -1,26 +1,22 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Header from '../src/components/Header'
-import ProductList from '../src/components/product/ProductList'
+import Image from 'next/image'
+import ChitChat from '../src/components/ChitChat'
 
 const Home: NextPage = () => {
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center'>
+    <div>
       <Head>
         <title>Create Next App</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className='flex h-screen w-full flex-col overflow-hidden'>
-        <Header />
-        <main className='flex-1 overflow-y-scroll bg-white pt-2 text-center'>
-          <ProductList />
-        </main>
-        <footer className='border-grey w-full border pt-2 pb-2 text-center'>
-          <span className='text-sm text-gray-500'>
-            &copy; {new Date().getFullYear()}
-          </span>{' '}
-          Powered by <span className='text-blue-500'>D Shop</span>
-        </footer>
+      <div>
+        <ChitChat
+          title='This is a title'
+          description='This is a description'
+          image='/logo.svg'
+          alt='Logo'
+        />
       </div>
     </div>
   )

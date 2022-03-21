@@ -1,5 +1,7 @@
 {
   "cSpell.words": [
+    "headlessui",
+    "heroicons",
     "imgix",
     "semibold",
     "tailwindcss",
@@ -37,5 +39,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.sortImports": true
-  }
+  },
+  "editor.minimap.enabled": false
 }
