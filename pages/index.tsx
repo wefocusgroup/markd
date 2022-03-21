@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import React from 'react'
 import ChitChat from '../src/components/ChitChat'
-import UserCard from '../src/components/UserCard'
+import StateFull from '../src/components/StateFull'
 
 const Home: NextPage = () => {
   const onClick = () => {
@@ -27,20 +27,15 @@ const Home: NextPage = () => {
           alt='Logo'
         />
         <div className='h-2' />
-        <UserCard
-          name='Mark Antony'
-          position='Product Engineer'
-          action='Message'
-          alt='Mark Antony'
-          image='https://tailwindcss.com/img/erin-lindford.jpg'
-          onClick={onClick}
-        />
-        <div className='h-2' />
         <div className='mx-auto flex max-w-sm items-center'>
           <button onClick={onWelcome} className='btn-primary'>
             Welcome
           </button>
         </div>
+        <div className='h-2' />
+        <StateFull type='One' />
+        <div className='h-2' />
+        <StateFull />
       </div>
     </div>
   )
