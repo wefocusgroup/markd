@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import ChitChat from '../src/components/ChitChat'
 import UserCard from '../src/components/UserCard'
 
